@@ -14,7 +14,7 @@ function App() {
     //for pagination
     let pageno=10;
    let getdata= async()=>{
-       const {data} = await axios.get("https://webscrap437.herokuapp.com/products");
+       const {data} = await axios.get("https://webscrapper-backend.herokuapp.com/products");
        console.log(data);
        setState(data);
    }
